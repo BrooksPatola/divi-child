@@ -21,12 +21,24 @@
 background-color: grey;
 }
 
+
+.et_boxed_layout #page-container, .et_boxed_layout #page-container .container, .et_boxed_layout #page-container .et_pb_row, .et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header, .et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row, .et_fixed_nav.et_boxed_layout #page-container #main-header, .et_fixed_nav.et_boxed_layout #page-container #top-header, .et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header
+{
+    min-width: 100%;
+     max-width: 1200px; 
+    margin: auto;
+}
+
 /* Homepage video */
 .introVideo video {
     height: 90vh;
     object-fit: fill;
+    min-width: 100%;
+
     
 }
 
+/* .home {
+    background-color: lightgrey;
+} */
 
-  

@@ -41,9 +41,9 @@ get_header();
         <img src ="http://127.0.0.1/wordpress/wp-content/uploads/2018/08/holoNike.png" alt="nike">
     </div>
 
-      <!--   <div class="thumbnail">
+        <div class="thumbnail">
             <img src="img/holoAns.png" alt="Nature">
-        </div> -->
+        </div> 
        
 </div>
 
