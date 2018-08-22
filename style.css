@@ -23,8 +23,10 @@ background-color: grey;
 
 /* Homepage video */
 .introVideo video {
-    height: 80vh;
+    height: 90vh;
     object-fit: fill;
     
 }
+
+
   
