@@ -14,8 +14,8 @@ get_header();
 <!-- **************************HTML GOES HERE ************-->
 
   <!-- Video for fullscreen intro with fallback video formats for different browsers -->
-  <div class="container">
-  <section class= "introVideo">
+  <div class="customContainer">
+  <section id= "introVideo">
   <div>
       <!-- muted for autoplay to work in Chrome -->
       <video muted autoplay="true" loop="true">
@@ -30,6 +30,11 @@ get_header();
   
 
 
+  <!-- ABOUT US BLURB  -->
+<section id="aboutUs">
+    <h1>LOREM IPSUM</h1>
+
+</section>
 
 
 <br><br>
