@@ -20,3 +20,11 @@
 .et_right_sidebar #sidebar{
 background-color: grey;
 }
+
+/* Homepage video */
+.introVideo video {
+    height: 80vh;
+    object-fit: fill;
+    
+}
+  
