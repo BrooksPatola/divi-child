@@ -31,10 +31,11 @@ get_header();
 
 
   <!-- ABOUT US BLURB  -->
-<section id="aboutUs">
+<section class="et-waypoint et_pb_animation_fade_in" id="aboutUs">
     <h1>LOREM IPSUM</h1>
 
-    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, reprehenderit illum, quasi, alias consequatur deleniti culpa qui eaque nemo voluptatem modi tempora aliquid quidem nostrum accusamus ducimus veritatis dolorem vitae. </p>
+    <p class="lead"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, reprehenderit illum, quasi, alias consequatur deleniti culpa qui eaque nemo voluptatem modi tempora aliquid quidem nostrum accusamus ducimus veritatis dolorem vitae. </p>
+  
 </section>
 
 
