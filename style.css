@@ -45,9 +45,21 @@ background-color: grey;
     height: 90vh;
     object-fit: fill;
     min-width: 100%;
-
-    
 }
+
+/* about us section */
+#aboutUs {
+height: 25vh;
+background: lightgray;
+}
+
+/* header in about us section */
+#aboutUs h1 {
+    padding: 2rem;
+
+}
+
+
 
 /* .home {
     background-color: lightgrey;

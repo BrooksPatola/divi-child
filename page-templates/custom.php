@@ -34,6 +34,7 @@ get_header();
 <section id="aboutUs">
     <h1>LOREM IPSUM</h1>
 
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, reprehenderit illum, quasi, alias consequatur deleniti culpa qui eaque nemo voluptatem modi tempora aliquid quidem nostrum accusamus ducimus veritatis dolorem vitae. </p>
 </section>
 
 
