@@ -15,10 +15,6 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
 function sk_enqueue_scripts() {
  
-
-        // bootstrap style
-    wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
-
 	wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
  
 	wp_enqueue_script( 'wow', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', array(), '', true );
@@ -34,20 +30,19 @@ function sk_wow_init_in_footer() {
 }
  
 
-//* Add JavaScript before </body>
+//* Add JavaScript before </body> 
 function wow_init() { ?>
 
 	<script type="text/javascript">
 		new WOW().init();
     </script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js " integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em "
-        crossorigin="anonymous "></script>
-
 <?php }
 
 
 /* 
+remove parent theme styles/scripts
+
 function PREFIX_remove_scripts() {
     wp_dequeue_style( 'screen' );
     wp_deregister_style( 'screen' );

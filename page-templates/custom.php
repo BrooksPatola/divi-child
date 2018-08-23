@@ -29,7 +29,7 @@ get_header();
   </section>
   
   <!-- ABOUT US BLURB  -->
-<section class="wow fadeInRight" id="aboutUs">
+<section class="wow fadeInRight data-wow-duration="2s" data-wow-delay="5s"" id="aboutUs">
     <h2>LOREM IPSUM</h2>
     <button class="button btn-success">test</button>
 
@@ -39,6 +39,8 @@ get_header();
 
 
 <br><br>
+
+
 
 
  <!-- owl sliding gallery -->
