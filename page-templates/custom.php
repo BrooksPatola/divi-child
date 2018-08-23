@@ -28,11 +28,10 @@ get_header();
   </div>
   </section>
   
-
-
   <!-- ABOUT US BLURB  -->
-<section class="et-waypoint et_pb_animation_fade_in" id="aboutUs">
+<section class="wow fadeInRight" id="aboutUs">
     <h2>LOREM IPSUM</h2>
+    <button class="button btn-success">test</button>
 
     <p class="lead"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, reprehenderit illum, quasi, alias consequatur deleniti culpa qui eaque nemo voluptatem modi tempora aliquid quidem nostrum accusamus ducimus veritatis dolorem vitae. </p>
   
